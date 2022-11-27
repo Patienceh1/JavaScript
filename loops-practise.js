@@ -1,9 +1,9 @@
-// Practicing different types of Loops.
+//Practicing different types of Loops.
 
 
 const scores = [11, 75, 82, 92, 24, 65];
 
-let i = 0;
+ let i = 0;
 
 while (i < scores.length) {
     console.log(scores[i]);
@@ -26,3 +26,11 @@ scores.forEach((score) => {
     console.log(score)
 }
 )
+
+ // Finding the biggest number in the console
+ console.log(Math.max(11, 75, 82, 92, 24, 65));
+
+ // Finding the biggest number in an Array
+maxNumber = scores.reduce((a, b) => Math.max(a, b), -Infinity);
+console.log(maxNumber);
+
