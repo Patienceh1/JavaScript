@@ -20,3 +20,31 @@ const operate = (callback) => console.log(callback())
 operate(() => add(43,96));
 operate(() => subtract(76,9));
 operate(() => 8 * 3)
+
+const numArray = [1,2,3,4];
+
+const sum = numArray.reduce((accumilator, currentValue) => {
+    return accumilator + currentValue;
+})
+
+ console.log(sum);
+
+ const numbersArr = [23,54,56,87,98];
+
+ numbersArr.forEach(number => {
+    // console.log(number);
+ })
+
+ const filteredArray = numbersArr.filter(n => {
+    return n > 50;
+ })
+
+ console.log(filteredArray);
+
+ const finalParticipants = ["Micah", "Aaron", "Naishe", "Adie"]
+
+ const announcement = finalParticipants.map(member => {
+    return member + " joined the contest";
+ })
+
+ console.log(announcement);
