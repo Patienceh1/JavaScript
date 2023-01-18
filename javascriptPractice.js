@@ -32,7 +32,7 @@ const sum = numArray.reduce((accumilator, currentValue) => {
  const numbersArr = [23,54,56,87,98];
 
  numbersArr.forEach(number => {
-    // console.log(number);
+     console.log(number);
  })
 
  const filteredArray = numbersArr.filter(n => {
@@ -48,3 +48,19 @@ const sum = numArray.reduce((accumilator, currentValue) => {
  })
 
  console.log(announcement);
+
+ x => x * x
+ 
+
+
+const numbers = [1,2,3,4];
+const numberDoubled = numbers.map((num) => {
+    return num * 2;
+})
+
+console.log(numbers);
+console.log(numberDoubled);
+
+const string = "my name is patience, i live in wolves";
+const stringExtract = string.slice(7);
+console.log(stringExtract);
