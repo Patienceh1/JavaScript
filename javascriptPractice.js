@@ -64,3 +64,56 @@ console.log(numberDoubled);
 const string = "my name is patience, i live in wolves";
 const stringExtract = string.slice(7);
 console.log(stringExtract);
+
+const nemo = ["nemo"];
+
+// function findNemo (array) {
+//     let t0 = performance.now();
+//     for(let i = 0; i < array.length; i++) {
+//       if (array[i] === "nemo") {
+//         console.log("Found NEMO");
+//       }
+//     }
+//     let t1 = performance.now();
+//     console.log("Call to find nemo took " + (t0-t1) + " milliseconds ")
+// }
+
+// findNemo(nemo);
+
+
+const a = 1;
+
+// function arrFill (arr) {
+
+//  for (let i = 0; i < arr.length; i++) {
+//     a++;
+//  }
+//  return a;
+// }
+
+console.log(a);
+// const large = new Array(365).fill(1);
+
+// console.log(large);
+
+const palString = 'olleh';
+
+const reverseString = palString.split('').reverse().join('');
+
+console.log(reverseString);
+
+// function longestWord (str) {
+//  let stringg = str.split(" ");
+//  let longest = 0;
+//  let longest_Word = null;
+//  for(let i = 0; i < stringg.length; i++) {
+//     if (longest < stringg[i].length) {
+//         longest = stringg[i].length;
+//         longest_Word = stringg[i];
+//     }
+//  }
+//  return longest_Word;
+// }
+// console.log(longestWord("ello guys this is geeksforgeeks where students learn programming"));
+
+

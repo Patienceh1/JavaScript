@@ -1,12 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script src="javascriptPractice.js" type="module"></script>></script>
-</body>
+<html>
+    <head>
+    <style>
+    #clickdiv {
+        color: blue;
+        font-size: 15px;
+    }
+    </style>
+    </head>
+    <body>
+        <div id="clickdiv">Click me</div>
+        <script>
+            var clickDiv = document.getElementById('clickdiv');
+            clickDiv.addEventListener('click', function() {
+                clickDiv.innerHTML = 'Hello there, this is jnaapti!';
+                clickDiv.style.color = 'green';
+            });
+        </script>
+    </body>
 </html>
